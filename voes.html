@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Spark People
+    </title>
+    <style>
+        /* #navbar {
+            width: 100%;
+            border: 1px solid red;
+            justify-content: space-around;
+            /* align-items: center; */
+        /* margin-top: -5;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+display: flex;
+        } */
+
+
+        #navbar {
+            width: 100%;
+            /* border: 1px solid red; */
+            justify-content: space-around;
+            align-items: center;
+            margin-top: -5;
+            grid-template-columns: repeat(5, 1fr);
+            display: flex;
+
+            justify-content: center;
+        }
+
+        .nav1 {
+            /* border: 1px solid red; */
+
+            display: flex;
+            /* justify-content: space-around; */
+            gap: 80px;
+            margin-top: 20px;
+
+
+        }
+
+
+        .nav1 img {
+            width: 250px;
+            height: auto;
+
+        }
+
+        .navbar h4 {
+            margin-top: 100px;
+            gap: 20px;
+        }
+
+        .nav1 h4 {
+            gap: 60px;
+
+        }
+
+        .nav2 {
+            margin-top: 40px;
+
+        }
+
+        #picture {
+            width: 80%;
+            /* border: 1px solid red; */
+            height: fit-content;
+            margin-left: 130px;
+        }
+
+        #picture img {
+            width: 100%;
+
+        }
+
+        #picture h2 {
+            text-align: center;
+        }
+
+        #picture p {
+            text-align: center;
+        }
+
+        #slippers {
+            width: 100%;
+            height: 250px;
+            /* border: 1px solid red; */
+            display: flex;
+        }
+
+        .slippers1 {
+            width: 33.3%;
+            /* border: 1px solid red; */
+            height: 240px;
+        }
+
+        .slippers1 img {
+            width: 300px;
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+
+        .slippers1 h3 {
+            text-align: center;
+        }
+
+        #picture2 {
+            width: 80%;
+            /* border: 1px solid red; */
+            height: fit-content;
+            margin-left: 150px;
+        }
+        #picture2 img{
+            width: 100%;
+            
+        }
+        #picture3{
+            margin-top: 50px;
+            width: 80%;
+            /* border: 1px solid red; */
+            height: fit-content;
+            margin-left: 150px;
+        }
+           #picture3 img{
+            width: 100%;
+            margin-top: 50px;
+        }
+        #picture3 h1{
+            text-align: center;
+            font-style: italic;
+            font-size: 60px;
+        }
+        #picture4{
+            width: 80%;
+            height: 80px;
+            /* border: 1px solid red; */
+            display: flex;
+            gap: 60px;
+            margin-left: 150px;
+        }
+        .picture1{
+            width: 40%;
+            /* border: 1px solid red; */
+            height: 60px;
+            
+        }
+        .picture1 button{
+            width: 260px;
+         margin-top: 10px;
+         margin-left: 180px;
+         height: 40px;
+         background-color: white;
+         color: black ;
+         font: message-box;
+        }
+       #picture5{
+        width: 80%;
+        /* border: 1px solid red; */
+        height: 380px;
+        margin-left: 150px;
+       }
+       #picture5 img{
+        width: 100%;
+       }
+       #picture5 h1{
+        text-align: center;
+            font-style: italic;
+            font-size: 30px;
+           
+       }
+       #picture6{
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid red; */
+        display: flex;
+       }
+       /* #picture6 p{
+        
+            width: 80%;
+            height: 80px;
+            border: 1px solid red;
+            display: flex;
+            gap: 60px;
+            margin-left: 150px;
+        
+       } */
+       .sandal1{
+        width: 40%;
+            /* border: 1px solid red; */
+            height: 360px;
+       }
+       .sandal1 p{
+        text-align: center;
+       }
+       .sandal1 img{
+        margin-left: 90px;
+       }
+       #picture7{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        background-color: rgb(239,239,240);
+       }
+       #picture7 img{
+        width: 50%;
+        margin-left: 320px;
+       }
+       .bt1{
+        width: 15%;
+        /* border: 1px solid red; */
+        margin-left: 350px;
+
+       }
+       .bt1 button{
+        margin-top: 50px;
+        margin-left: 40px;
+        background-color: white;
+        width: 160px;
+        height: 30px;
+       }
+       #picture8{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        background-color: rgb(239,239,240);
+        /* border: 1px  solid red; */
+       }
+       #picture9{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        background-color: rgb(239,239,240);
+        /* border: 1px  solid red; */
+  
+       }
+       /* .bt2{
+        width: ;
+        border: 1px solid red;
+        margin-left: 350px;
+
+       } */
+#picture9 img{
+    margin-left: 600px;
+}
+#picture10{
+    width: 100%;
+        height: 150px;
+       
+        background-color: rgb(239,239,240);
+        /* border: 1px  solid red; */
+  
+}
+#picture10 img{
+    margin-left: 550px;
+    width: 500px;
+    margin-top: 10px;
+}
+#para{
+    width: 100%;
+        height: 50px;
+       
+        background-color: rgb(239,239,240);
+        /* border: 1px  solid red; */
+        text-align: center;
+  
+}
+#para h2{
+    text-transform: uppercase;
+}
+#para2{
+    width: 100%;
+        height: 400px;
+       
+        background-color: rgb(239,239,240);
+        /* border: 1px  solid red; */
+        text-align: center;
+        text-align: justify center;
+  
+}
+#para3{
+    width: 100%;
+        height: 300px;
+       
+        background-color: black;
+        /* border: 1px  solid red; */
+        /* text-align: center;
+        text-align: justify center; */
+  display: flex;
+}
+.para1{
+    width: 30.5%;
+    height: 300px;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    </style>
+
+
+<body>
+    <div id=" navbar">
+        <div class="nav1">
+            <div>
+                <img
+                    src="https://www.vionicshoes.com/static/version1658466353/frontend/vionic/vionic-luma/en_US/images/logo.gif">
+            </div>
+            <div class="nav1">
+                <h4> WOMEN</h4>
+                <!-- </div> -->
+            </div>
+            <!-- <div class="nav2"> -->
+            <div class="nav1">
+                <h4> MEN</h4>
+                <!-- </div> -->
+            </div>
+            <!-- <div class="nav3"> -->
+            <div class="nav1">
+                <h4> OUR DIFFERENCES</h4>
+            </div>
+            <!-- 
+                    <div class="nav4"> -->
+            <div class="nav1">
+                <h4> SALE</h4>
+            </div>
+            <!-- <div class="nav5"> -->
+            <div class="nav1">
+                <h4> CONTACT US</h4>
+            </div>
+            <!-- <div class="nav6"> -->
+            <div class="nav2">
+                <input placeholder="Search">
+            </div>
+            <!-- 
+                    
+                     <div class="nav7"> -->
+        </div>
+
+        <div id="picture">
+            <img src="https://www.vionicshoes.com/media/pages/home/hp-recovery-banner-desktop.jpg">
+            <h2> ON‐TREND TONES & TEXTURES</h2>
+            <p> Comfortable and stylish sandals, sneakers, dress shoes, boots, casual shoes and slippers.</p>
+
+        </div>
+
+        <div id="slippers">
+            <div class="slippers1">
+                <img src="https://www.vionicshoes.com/media/pages/home/featured-womens-sandals-20220714.jpg">
+                <h3> shop Sandels</h3>
+            </div>
+
+            <div class="slippers1">
+                <img src="https://www.vionicshoes.com/media/pages/home/featured-womens-sneakers-20220714.jpg">
+                <h3> shop sneakers</h3>
+            </div>
+
+            <div class="slippers1">
+                <img src="https://www.vionicshoes.com/media/pages/home/featured-mens-sandals-20220602.jpg">
+                <h3> shop sneakers men</h3>
+            </div>
+        </div>
+
+        <div id ="picture2">
+            <img src="https://www.vionicshoes.com/media/pages/sales/summer-beach-blowout-banner-desktop.jpg">
+        </div>
+
+        <div id="picture3">
+            <h1>wardrobe winners</h1> 
+            <img src="https://www.vionicshoes.com/media/pages/home/hp-recovery-stylestory-desktop-v2.jpg">
+        </div>
+
+        <div id="picture4">
+            <div class="picture1">
+<button> Shop Women's Performance</button>
+            </div>
+       
+        <div class="picture1">
+            <button> Shop Men's Performance</button>
+        </div>
+    </div>
+
+    <div id="picture5">
+        <h1> FOLLOW @VIONICSHOES ON INSTAGRAM</h1>
+        <img src="https://www.vionicshoes.com/media/pages/home/social-desktop-07142022.jpg">
+    </div>
+    <div id="picture6">
+        <!-- <p> TRENDING STYLES_____________________________________________________________________________________________________________________________________</p> -->
+    <!-- </div> -->
+    <div class="sandal1">
+<img src="https://images.vionicshoes.com/resize/300x300/product/u/n/unwind_black_silo_1.jpg">
+<p> Rejuvenate Recovery Sandal</p>
+    </div>
+
+    <div class="sandal1">
+        <img src="https://images.vionicshoes.com/resize/300x300/product/4/4/44tidell_blk_silo_1_1.jpg">
+    <p> Panama Sandal</p>
+    </div>
+
+    <div class="sandal1">
+        <img src="https://images.vionicshoes.com/resize/300x300/product/r/e/rejuvenate_navy_silo_1.jpg">
+    <p>Tide II Toe Post Sandal </p>
+    </div>
+    
+    </div>
+
+    <div id="picture7">
+        <img src="https://www.vionicshoes.com/media/cms_pages/vionic2020/womens-shoes/images/three-zone-comfort-title-desktop.png">
+    </div>
+    <div id="picture8">
+ <div class="bt1">
+<button> WATCH VIDEO</button>
+         </div>
+
+         <div class="bt1">
+            <button> LEARN MORE</button>
+        </div>
+    </div>
+
+    <div id="picture9">
+<img src="https://www.vionicshoes.com/media/pages/shared/tech-shoes/tech-shoe-mens-seaview-black.jpg">
+    </div>
+
+    <div id="picture10">
+       <img src="https://www.vionicshoes.com/media/pages/shared/tech-shoes/tech-three-zone-support.png">
+    </div>
+
+
+    <div id="para">
+        <h2> comfortable & stylish shoes for men and women</h2>
+    </div>
+
+    <div id="para2">
+        <p> Whether you’re shopping for men’s shoes or women’s shoes, comfortable stylish shoes that keep up with the<br> current style trends should be a priority. What if you could have all that, with supportive arch support technology to <br>relieve aching feet and pain from plantar fasciitis or heel pain? At Vionic, our shoes for women and men provide<br> arch support technology in the most up to date styles. Made with high quality and breathable materials such as<br> durable leather and soft suede, our footwear is created for all-day wear so that your feet can be comfortable no<br> matter where you are going. Walk in comfort when you slip into a comfortable pair of shoes with arch support from<br> Vionic.</p>
+    <p> No matter what shoes you’re wearing, you should feel great and your feet should be comfortable, too. Whether<br> you’re looking for lightweight sandals or shoes to wear on vacation, dress shoes for work or boots for those cold<br> winter months, Vionic has versatile shoes no matter the occasion or the season. For women, our stylish loafers and<br> comfortable flats are perfect for a casual work day while our heels and wedges are great for going from your day at<br> work to a night on the town. For men, find a pair of<br> sneakers that can be worn anywhere and anytime or a pair of comfortable men’s dress shoes made to impress at<br> the office. We even have supportive shoes for medical professionals or comfortable shoes for teachers who are<br>  constantly on their feet allday.</p>
+    
+    </div>
+    <div id="para3">
+        <div class="para1">
+<h4> GIVE US A RING</h4>
+   <P> 1-800-832-9255</P>
+   <P>  Mon-Fr- 7:00AM-4:30PM PST</P>
+    
+    <h3> DROP US A NOTE</h3>
+   <p>  info@vionicshoes.com</p>
+        </div>
+        <div class="para1">
+            <h3> AT YOUR SERVICE</h3>
+            <h4> GET FREE SHIPPING</h4>
+            <P> Join our email list and your <br> next order ships free!</P>
+            <input type="Email"placeholder="submit">
+        </div>
+        <div class="para1">
+            <h3> FIND A STORE </h3>
+            <input type="type"placeholder="ZIP">
+        </div>
+    </div>
+</body>
